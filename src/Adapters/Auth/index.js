@@ -15,6 +15,7 @@ const janraincapture = require('./janraincapture');
 const vkontakte = require('./vkontakte');
 const qq = require('./qq');
 const wechat = require('./wechat');
+const weapp = require('./weapp');
 const weibo = require('./weibo');
 const oauth2 = require('./oauth2');
 
@@ -44,6 +45,7 @@ const providers = {
   vkontakte,
   qq,
   wechat,
+  weapp,
   weibo,
 };
 
